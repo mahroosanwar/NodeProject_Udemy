@@ -8,7 +8,7 @@ const session = require("express-session");
 const MongoDbStore = require("connect-mongodb-session")(session);
 
 const MONGODB_URI =
-  "mongodb+srv://mahroosanwar:Onetwo12@cluster0.ezgn0kf.mongodb.net/shop?retryWrites=true&w=majority";
+  "ongodb_url";
 
 const app = express();
 const store = new MongoDbStore({
