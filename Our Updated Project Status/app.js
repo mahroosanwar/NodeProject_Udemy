@@ -10,7 +10,7 @@ const csrf = require("csurf");
 const flash = require("connect-flash");
 
 const MONGODB_URI =
-  "mongodb+srv://mahroosanwar:Onetwo12@cluster0.ezgn0kf.mongodb.net/shop?retryWrites=true&w=majority";
+  "MONGODB_URL";
 
 const app = express();
 const store = new MongoDbStore({
