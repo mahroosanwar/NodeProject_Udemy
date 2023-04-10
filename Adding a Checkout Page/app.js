@@ -12,7 +12,7 @@ const multer = require("multer");
 const { v4: uuidv4 } = require('uuid');
 
 const MONGODB_URI =
-  "mongodb+srv://mahroosanwar:Onetwo12@cluster0.ezgn0kf.mongodb.net/shop?retryWrites=true&w=majority";
+  "MongoDB URL";
 
 const app = express();
 const store = new MongoDbStore({
