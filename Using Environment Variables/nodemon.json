@@ -1,0 +1,8 @@
+{
+  "env": {
+    "MONGO_USER": "mahroosanwar",
+    "MONGO_PASSWORD": "Onetwo12",
+    "MONGO_DEFAULT_DATABASE": "shop",
+    "STRIPE_KEY": "sk_test_51MvFUHSDhaDBqCWhzDquiDpFO5cuOnZePdBv3GV2qPktia595f6L6XN6MGa5c29yM6UY8uH4XTBA9ZLxaUa9pdrH00HBaC85xa"
+  }
+}
